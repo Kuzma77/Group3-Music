@@ -46,10 +46,10 @@ public class UserMapperTest {
     public void userSign() {
         String name = "小黑";
         String password = "admin";
-        String account = "2673327266@qq.com";
+        String account = "18805167526";
         String REGEX_MOBILE = "^((17[0-9])|(14[0-9])|(13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$";
         String REGEX_EMAIL = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
-        if(userMapper.getUserByPhoneNumber(account)==null&&userMapper.getUserByEmail(account)!=null){
+        if(userMapper.getUserByPhoneNumber(account)==null&&userMapper.getUserByEmail(account)==null){
             String salt = Salt.getRandomSalt();
             String newPassword = Salt.generate(password + salt, salt);
             if(Pattern.matches(REGEX_MOBILE,account)){

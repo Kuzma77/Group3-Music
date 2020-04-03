@@ -23,12 +23,14 @@ public interface UserMapper {
      * @param phoneNumber
      * @return User
      */
+    @Select("SELECT * FROM t_sys_user WHERE phone_number = #{phoneNumber}")
     User userLogin(String phoneNumber);
     /**
      * 通过用户手机号查询用户
      * @param phoneNumber
      * @return User
      */
+    @Select("SELECT * FROM t_sys_user WHERE phone_number = #{phoneNumber}")
     User getUserByPhoneNumber(String phoneNumber);
 
     /**
@@ -37,6 +39,7 @@ public interface UserMapper {
      * @param email
      * @return User
      */
+    @Select("SELECT * FROM t_sys_user WHERE email = #{email}")
     User getUserByEmail(String email);
     /**
      * 注册一个用户
@@ -67,12 +70,7 @@ public interface UserMapper {
      * @param musicList
      */
     void batchLoveMusic(@Param("musicList") List<Music> musicList);
-    /**
-     * 取消收藏歌曲
-     *
-     * @param music
-     */
-    void cancleLoveMusic(Music music);
+
 
     /**
      * 批量取消收藏歌曲
@@ -82,26 +80,13 @@ public interface UserMapper {
     void batchcancleLoveMusic(@Param("musicList") List<Music> musicList);
 
     /**
-     * 通过歌曲id获取音乐
-     *
-     * @param musicId
-     * @return Music
-     */
-    Music getMusicById(String musicId);
-    /**
      * 通过关键字搜索音乐
      *
      * @param keyWord
      * @return Music
      */
     Music getMusicByKeyWord(String keyWord);
-    /**
-     * 通过用户id获取到收藏的歌曲列表
-     *
-     * @param userID
-     * @return List<Music>
-     */
-    List<Music> getMusicListBiUserId(String userID);
+
 
 
     @Select("SELECT * FROM t_sys_user")
