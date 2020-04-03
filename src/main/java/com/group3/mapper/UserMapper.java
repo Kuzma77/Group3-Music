@@ -3,7 +3,11 @@ package com.group3.mapper;
 
 import com.group3.entity.Music;
 import com.group3.entity.User;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+import org.springframework.context.annotation.PropertySource;
 
 import java.util.List;
 
@@ -39,6 +43,9 @@ public interface UserMapper {
      *
      * @param user
      */
+    @Insert(" INSERT INTO t_sys_user (name, password, salt, email, phone_number, status, binding, credits, create_time, last_login_time)\n" +
+            "        VALUES (#{userName},#{password},#{salt},#{email},#{phoneNumber},#{status},#{binding},#{credits},#{createTime},#{lastLoginTime})")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
     void userSign(User user);
 
     /**
@@ -95,4 +102,8 @@ public interface UserMapper {
      * @return List<Music>
      */
     List<Music> getMusicListBiUserId(String userID);
+
+
+    @Select("SELECT * FROM t_sys_user")
+    List<User> selectAll();
 }
