@@ -37,7 +37,7 @@ public class UserMapperTest {
                 if(Duration.between(lastLoginTime,LocalDateTime.now()).toDays()>=1 || user.getCredits()==0){
                     user.setCredits(user.getCredits()+5);
                     user.setLastLoginTime(LocalDateTime.now());
-                    userMapper.updatecredits(user);
+                    userMapper.updateCredits(user);
                 }
                 System.out.println("登录成功");
             }
@@ -111,7 +111,7 @@ public class UserMapperTest {
     @Test
     public void canaleUser() {
         User user = userMapper.userLogin("18805167526");
-        userMapper.canaleUser(user.getId());
+        userMapper.cancelUser(user.getId());
     }
 
     @Test

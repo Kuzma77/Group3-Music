@@ -22,4 +22,39 @@ public class UserServiceImpl implements UserService {
     public void userSign(User user) {
         userMapper.userSign(user);
     }
+
+    @Override
+    public User userLogin(String account) {
+        return userMapper.userLogin(account);
+    }
+
+    @Override
+    public User getUserByPhoneNumber(String phoneNumber) {
+        return userMapper.getUserByPhoneNumber(phoneNumber);
+    }
+
+    @Override
+    public User getUserByEmail(String email) {
+        return userMapper.getUserByEmail(email);
+    }
+
+    @Override
+    public User getUserById(Integer userId) {
+        return userMapper.getUserById(userId);
+    }
+
+    @Override
+    public void cancelUser(Integer userId) {
+        userMapper.cancelUser(userId);
+    }
+
+    @Override
+    public void updateCredits(User user) {
+        userMapper.updateCredits(user);
+    }
+
+    @Override
+    public void updatePassword(User user) {
+        userMapper.updatePassword(user);
+    }
 }

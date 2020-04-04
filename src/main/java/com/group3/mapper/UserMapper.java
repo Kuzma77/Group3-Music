@@ -29,7 +29,13 @@ public interface UserMapper {
      */
     @Select("SELECT * FROM t_sys_user WHERE phone_number = #{phoneNumber}")
     User getUserByPhoneNumber(String phoneNumber);
-
+    /**
+     * 通过id获得用户
+     * @param userId
+     * @return
+     */
+    @Select("SELECT * FROM t_sys_user WHERE id = #{id}")
+    User getUserById(Integer userId);
     /**
      * 通过用户邮箱查询用户
      *
@@ -47,23 +53,20 @@ public interface UserMapper {
             "        VALUES (#{userName},#{password},#{salt},#{email},#{phoneNumber},#{status},#{binding},#{credits},#{createTime},#{lastLoginTime})")
     @Options(useGeneratedKeys = true, keyProperty = "id")
     void userSign(User user);
-
     /**
+     *注销用户
      *
-     * 注销用户
      * @param userId
      */
     @Delete("DELETE FROM t_sys_user WHERE id = #{id}")
-    void canaleUser(Integer userId);
-
+    void cancelUser(Integer userId);
     /**
+     *更新积分和登录时间
      *
-     * 更新积分和登录时间
      * @param user
      */
     @Update("UPDATE t_sys_user SET credits = #{credits} , last_login_time = #{lastLoginTime} WHERE id = ${id}")
-    void updatecredits(User user);
-
+    void updateCredits(User user);
     /**
      * 修改密码
      *
