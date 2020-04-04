@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  * @author wl_sun
@@ -17,12 +18,13 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Data
 public class Music {
-    private String id;
+    private Integer id;
+    private String mId;
     private String name;
     private String author;
     private String src;
     private String img;
     private int count;
     private String type;
-    private LocalDate updateTime;
+    private LocalDateTime updateTime;
 }

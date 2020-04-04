@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @description TODO
  * @create Date
  */
-@RestController
+@RestController("com.group3.config")
 @RequestMapping(value = "/")
-public class LoginControl {
+public class LoginController{
     @GetMapping("/home")
     public String login(Model model){
         model.addAttribute("message","Keep Healthy!");
-        return "home";
+        return "login";
     }
 }

@@ -92,7 +92,7 @@ public class SpilderMusic {
                             String musicUrl = "http://music.uixsj.cn/api.php?callback=jQuery1113034466587161790607_1585798563762&types=url&id="+musicId+"&source=netease";
                             //获取音乐的下载链接
                             String downloadUrl=getUrl(musicUrl);
-                            Music music = Music.builder().id(musicId).name(musicName).author(author).src(downloadUrl).img(musicImage).build();
+                            Music music = Music.builder().mId(musicId).name(musicName).author(author).src(downloadUrl).img(musicImage).count((int) Math.ceil(Math.random()*10000)).build();
                             musicList.add(music);
                         }
                     }

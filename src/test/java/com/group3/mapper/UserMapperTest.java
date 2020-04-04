@@ -11,7 +11,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+import java.time.Duration;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
@@ -23,15 +26,20 @@ public class UserMapperTest {
     private UserMapper userMapper;
     @Test
     public void userLogin() {
-        String phoneNumber = "18805167526";
+        String account = "18805167526";
         String password = "admin";
-        if(userMapper.userLogin(phoneNumber)!=null){
-            User user = userMapper.userLogin(phoneNumber);
-            System.out.println(user);
+        if(userMapper.userLogin(account)!=null){
+            User user = userMapper.userLogin(account);
             String salt = user.getSalt();
-            System.out.println(salt);
             String realPassword = Salt.generate(password+salt,salt);
             if(realPassword.equals(user.getPassword())){
+                LocalDateTime lastLoginTime = user.getLastLoginTime();
+                if(Duration.between(lastLoginTime,LocalDateTime.now()).toHours()>=24 || user.getCredits()==0){
+
+                    user.setCredits(user.getCredits()+5);
+                    user.setLastLoginTime(LocalDateTime.now());
+                    userMapper.updatecredits(user);
+                }
                 System.out.println("登录成功");
             }
             else {
@@ -61,8 +69,8 @@ public class UserMapperTest {
                         .binding(1)
                         .status(1)
                         .credits(0)
-                        .createTime(LocalDate.now())
-                        .lastLoginTime(LocalDate.now())
+                        .createTime(LocalDateTime.now())
+                        .lastLoginTime(LocalDateTime.now())
                         .build();
                 userMapper.userSign(user);
                 System.out.println("注册成功！");
@@ -76,8 +84,8 @@ public class UserMapperTest {
                         .binding(2)
                         .status(1)
                         .credits(0)
-                        .createTime(LocalDate.now())
-                        .lastLoginTime(LocalDate.now())
+                        .createTime(LocalDateTime.now())
+                        .lastLoginTime(LocalDateTime.now())
                         .build();
                 userMapper.userSign(user);
                 System.out.println("注册成功！");
@@ -103,6 +111,8 @@ public class UserMapperTest {
 
     @Test
     public void canaleUser() {
+        User user = userMapper.userLogin("18805167526");
+        userMapper.canaleUser(user.getId());
     }
 
     @Test
@@ -136,5 +146,15 @@ public class UserMapperTest {
     @Test
     public void selectAll() {
         System.out.println(userMapper.selectAll());
+    }
+
+    @Test
+    public void updatePassword() {
+        User user = userMapper.userLogin("18805167526");
+        String salt = Salt.getRandomSalt();
+        String newPassword = Salt.generate(user.getPassword(),salt);
+        user.setPassword(newPassword);
+        user.setSalt(salt);
+        userMapper.updatePassword(user);
     }
 }

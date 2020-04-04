@@ -1,5 +1,6 @@
 package com.group3.config;
 
+
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
@@ -21,7 +22,7 @@ public class WebApplicationConfig implements WebApplicationInitializer {
         ctx.setServletContext(servletContext);
         ctx.refresh();
         ServletRegistration.Dynamic registration = servletContext.addServlet("dispatcher" ,
-        new DispatcherServlet(ctx));
+                new DispatcherServlet(ctx));
         registration.addMapping("/");
         registration.setLoadOnStartup(1);
     }

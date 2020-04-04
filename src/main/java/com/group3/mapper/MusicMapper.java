@@ -2,6 +2,8 @@ package com.group3.mapper;
 
 
 import com.group3.entity.Music;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -17,5 +19,12 @@ public interface MusicMapper {
      *
      * @param musicList
      */
+    @Insert({"<script>" +
+            "INSERT INTO t_sys_music (m_id, name, author, src, img, count, type, update_time) VALUES\n" +
+            "<foreach collection=\"musicList\" item=\"music\" index=\"index\" separator=\",\">\n" +
+            "(#{music.mId},#{music.name},#{music.author},#{music.src},#{music.img},#{music.count},#{music.type},#{music.updateTime})\n" +
+            "</foreach>"+
+            "</script>"})
+    @Options(useGeneratedKeys = true, keyProperty = "id")
     void batchinsertMusic(@Param("musicList") List<Music> musicList);
 }

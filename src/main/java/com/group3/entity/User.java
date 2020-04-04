@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  * @author wl_sun
@@ -26,6 +27,6 @@ public class User {
     private Integer status;
     private Integer binding;
     private Integer credits;
-    private LocalDate createTime;
-    private LocalDate lastLoginTime;
+    private LocalDateTime createTime;
+    private LocalDateTime lastLoginTime;
 }

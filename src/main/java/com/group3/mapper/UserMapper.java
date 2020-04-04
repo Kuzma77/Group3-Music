@@ -3,10 +3,7 @@ package com.group3.mapper;
 
 import com.group3.entity.Music;
 import com.group3.entity.User;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.context.annotation.PropertySource;
 
 import java.util.List;
@@ -20,11 +17,11 @@ public interface UserMapper {
     /**
      * 用户登录
      *
-     * @param phoneNumber
+     * @param account
      * @return User
      */
-    @Select("SELECT * FROM t_sys_user WHERE phone_number = #{phoneNumber}")
-    User userLogin(String phoneNumber);
+    @Select("SELECT * FROM t_sys_user WHERE phone_number = #{phoneNumber} OR email = #{email}")
+    User userLogin(String account);
     /**
      * 通过用户手机号查询用户
      * @param phoneNumber
@@ -54,9 +51,26 @@ public interface UserMapper {
     /**
      *
      * 注销用户
+     * @param userId
+     */
+    @Delete("DELETE FROM t_sys_user WHERE id = #{id}")
+    void canaleUser(Integer userId);
+
+    /**
+     *
+     * 更新积分和登录时间
      * @param user
      */
-    void canaleUser(User user);
+    @Update("UPDATE t_sys_user SET credits = #{credits} , last_login_time = #{lastLoginTime} WHERE id = ${id}")
+    void updatecredits(User user);
+
+    /**
+     * 修改密码
+     *
+     * @param user
+     */
+    @Update("UPDATE t_sys_user SET password = #{password} , salt = #{salt} WHERE id = ${id}")
+    void updatePassword(User user);
     /**
      * 收藏歌曲
      *
