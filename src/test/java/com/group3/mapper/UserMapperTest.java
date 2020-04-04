@@ -34,8 +34,7 @@ public class UserMapperTest {
             String realPassword = Salt.generate(password+salt,salt);
             if(realPassword.equals(user.getPassword())){
                 LocalDateTime lastLoginTime = user.getLastLoginTime();
-                if(Duration.between(lastLoginTime,LocalDateTime.now()).toHours()>=24 || user.getCredits()==0){
-
+                if(Duration.between(lastLoginTime,LocalDateTime.now()).toDays()>=1 || user.getCredits()==0){
                     user.setCredits(user.getCredits()+5);
                     user.setLastLoginTime(LocalDateTime.now());
                     userMapper.updatecredits(user);

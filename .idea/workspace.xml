@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169518b7-965c-4cca-9022-885e59d940a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/group3/mapper/MusicMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Group_music_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Group_music_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group-music.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Group-music.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/config/WebApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/config/WebApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/controller/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/entity/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/entity/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/mapper/MusicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/mapper/MusicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/util/SpilderMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/util/SpilderMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/group3/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/group3/mapper/UserMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -357,7 +344,7 @@
       <updated>1585903352123</updated>
       <workItem from="1585903353874" duration="14819000" />
       <workItem from="1585933388792" duration="1485000" />
-      <workItem from="1585976811455" duration="10400000" />
+      <workItem from="1585976811455" duration="11331000" />
     </task>
     <servers />
   </component>
