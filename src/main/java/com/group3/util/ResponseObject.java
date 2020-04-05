@@ -16,4 +16,5 @@ public class ResponseObject {
     private Integer code;
     private String msg;
     private Object data;
+
 }

@@ -9,11 +9,20 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+<<<<<<< HEAD
+=======
+import static org.junit.Assert.*;
+
+>>>>>>> 7230b25bf4685e16b47abf345b5d7ed8096ba536
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {MapperConfig.class})
 public class CollectMapperTest {
 
+<<<<<<< HEAD
     @Resource private CollectMapper collectMapper;
+=======
+    @Resource private  CollectMapper collectMapper;
+>>>>>>> 7230b25bf4685e16b47abf345b5d7ed8096ba536
     @Test
     public void getUserByMusicId() {
         collectMapper.getUserByMusicId(1).forEach(System.out::println);
