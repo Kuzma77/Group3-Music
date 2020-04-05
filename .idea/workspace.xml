@@ -6,118 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="169518b7-965c-4cca-9022-885e59d940a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/config/MapperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/config/WebApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/config/WebMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/controller/ViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/Music$MusicBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/mapper/MusicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/util/ResponseObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/util/Salt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/util/SpilderMusic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/aspectjweaver-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/byte-buddy-1.10.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-lang3-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/cssparser-0.9.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/druid-1.1.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/fastjson-1.2.66.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/hibernate-core-5.4.13.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/htmlunit-2.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/htmlunit-core-js-2.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/httpclient-4.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/httpcore-4.4.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/httpmime-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-client-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-http-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-io-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-util-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jsoup-1.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/mybatis-3.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/mybatis-spring-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/neko-htmlunit-2.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/sac-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/serializer-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-aop-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-aspects-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-beans-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-context-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-core-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-expression-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-jcl-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-jdbc-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-orm-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-test-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-tx-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-web-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-webmvc-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/websocket-api-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/websocket-client-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/websocket-common-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/xalan-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/xercesImpl-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/config/MapperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/config/WebApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/config/WebMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/controller/ViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/Music$MusicBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/mapper/MusicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/util/ResponseObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/util/Salt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/util/SpilderMusic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/group3/mapper/MusicMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/group3/mapper/UserMapperTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="169518b7-965c-4cca-9022-885e59d940a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -430,7 +319,7 @@
       <workItem from="1585976811455" duration="15261000" />
       <workItem from="1586008500721" duration="9492000" />
       <workItem from="1586055427505" duration="2393000" />
-      <workItem from="1586057854217" duration="3398000" />
+      <workItem from="1586057854217" duration="3643000" />
     </task>
     <servers />
   </component>
