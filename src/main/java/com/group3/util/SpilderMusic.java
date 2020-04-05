@@ -56,10 +56,11 @@ public class SpilderMusic {
                     Document document = Jsoup.parse(res);
                     Elements elements = document.select(".m-sglst");
                     for(Element element :elements){
-                        for(int i=0;i<element.childNodeSize();i++){
-                            Element item = element.child(i);
+                        for(int i=0;i<1;i++){
+                            Element item = element.child(0);
                             String musicurl = item.attr("href");
                             String musicImage = null;
+                            String lyric = null;
                             //二次请求界面获取图片
                             CloseableHttpClient closeableHttpClient = HttpClients.createDefault();
                             HttpGet get = new HttpGet("https:"+musicurl);
@@ -79,7 +80,6 @@ public class SpilderMusic {
                                     e.printStackTrace();
                                 }
                                 Document doc = Jsoup.parse(re);
-                                Elements it = doc.select(".cvrwrap img");
                                 musicImage = doc.select(".cvrwrap img").attr("data-src");
                             }
                             //获取每首音乐的id

@@ -7,15 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169518b7-965c-4cca-9022-885e59d940a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/util/ResponseObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/group3/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/group3/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/util/SpilderMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/util/SpilderMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,32 +30,16 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@59.110.156.45" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@59.110.156.45" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@59.110.156.45" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="group_com: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
         <option value="HTML File" />
-        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
@@ -100,8 +81,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-learning" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-spider" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -130,10 +111,10 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 5 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 5 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="Group-music" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -141,6 +122,19 @@
     </treeState>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
+    <configuration name="SpilderMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.group3.util.SpilderMusic" />
+      <module name="Group-music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group3.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MusicMapperTest.batchinsertMusic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group-music" />
       <extension name="coverage">
@@ -168,22 +162,6 @@
       <option name="PACKAGE_NAME" value="com.group3.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.group3.mapper.UserMapperTest" />
       <option name="METHOD_NAME" value="canaleUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Group-music" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.group3.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.group3.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.group3.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,7 +271,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserMapperTest.selectAll" />
+      <item itemvalue="Application.SpilderMusic" />
       <item itemvalue="JUnit.UserMapperTest.userSign" />
       <item itemvalue="JUnit.UserMapperTest.canaleUser" />
       <item itemvalue="JUnit.UserMapperTest.userLogin" />
@@ -302,11 +280,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpilderMusic" />
         <item itemvalue="JUnit.MusicMapperTest.batchinsertMusic" />
         <item itemvalue="JUnit.UserMapperTest.userLogin" />
         <item itemvalue="JUnit.UserMapperTest.userSign" />
         <item itemvalue="JUnit.UserMapperTest.canaleUser" />
-        <item itemvalue="JUnit.UserMapperTest.selectAll" />
       </list>
     </recent_temporary>
   </component>
@@ -325,15 +303,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@59.110.156.45" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@59.110.156.45" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@ab87b7a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -355,7 +324,9 @@
       <workItem from="1585903353874" duration="14819000" />
       <workItem from="1585933388792" duration="1485000" />
       <workItem from="1585976811455" duration="15261000" />
-      <workItem from="1586008500721" duration="6823000" />
+      <workItem from="1586008500721" duration="9492000" />
+      <workItem from="1586055427505" duration="2393000" />
+      <workItem from="1586057854217" duration="2826000" />
     </task>
     <servers />
   </component>
@@ -367,10 +338,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="424" y="128" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1585915283567" />
-    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586013408431">
+    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586058067881">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586013408431" />
+    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586058067881" />
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1586013829979">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -383,74 +354,74 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1585932633424" />
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1586009513459">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1586057206271">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586009513459" />
-    <state width="1273" height="283" key="GridCell.Tab.0.bottom" timestamp="1586015472735">
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586057206271" />
+    <state width="1273" height="189" key="GridCell.Tab.0.bottom" timestamp="1586060317891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586015472735" />
-    <state width="1273" height="283" key="GridCell.Tab.0.center" timestamp="1586015472735">
+    <state width="1273" height="189" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
+    <state width="1273" height="189" key="GridCell.Tab.0.center" timestamp="1586060317891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586015472735" />
-    <state width="1273" height="283" key="GridCell.Tab.0.left" timestamp="1586015472735">
+    <state width="1273" height="189" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
+    <state width="1273" height="189" key="GridCell.Tab.0.left" timestamp="1586060317891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586015472735" />
-    <state width="1273" height="283" key="GridCell.Tab.0.right" timestamp="1586015472735">
+    <state width="1273" height="189" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
+    <state width="1273" height="189" key="GridCell.Tab.0.right" timestamp="1586060317891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586015472735" />
-    <state width="1273" height="283" key="GridCell.Tab.1.bottom" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
+    <state width="1273" height="189" key="GridCell.Tab.1.bottom" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.1.center" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1273" height="189" key="GridCell.Tab.1.center" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.1.left" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1273" height="189" key="GridCell.Tab.1.left" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.1.right" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1273" height="189" key="GridCell.Tab.1.right" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.2.bottom" timestamp="1586015464641">
+    <state width="1273" height="189" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1273" height="189" key="GridCell.Tab.2.bottom" timestamp="1586058078211">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.2.center" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586058078211" />
+    <state width="1273" height="189" key="GridCell.Tab.2.center" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.2.left" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1273" height="189" key="GridCell.Tab.2.left" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
-    <state width="1273" height="283" key="GridCell.Tab.2.right" timestamp="1586015464640">
+    <state width="1273" height="189" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1273" height="189" key="GridCell.Tab.2.right" timestamp="1586058078210">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="283" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1586015464640" />
+    <state width="1273" height="189" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
     <state x="299" y="88" key="Maven.ArtifactSearchDialog" timestamp="1585904560291">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="299" y="88" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1585904560291" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1585976981212">
+    <state x="249" y="7" key="SettingsEditor" timestamp="1586057886781">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585976981212" />
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586057886781" />
     <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585984320213">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1585984320213" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1586009502595">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1586058548460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1586009502595" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1586058548460" />
     <state x="447" y="116" key="spring file set editor" timestamp="1585914605815">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
