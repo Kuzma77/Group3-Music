@@ -15,10 +15,21 @@ import static org.junit.Assert.*;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {MapperConfig.class})
 public class MusicMapperTest {
-@Resource
-private MusicMapper musicMapper;
+    @Resource
+    private MusicMapper musicMapper;
     @Test
     public void batchinsertMusic() {
         musicMapper.batchinsertMusic(SpilderMusic.getContent());
+    }
+
+    @Test
+    public void selectAllMusic() {
+        musicMapper.selectAllMusic().forEach(System.out::println);
+    }
+
+    @Test
+    public void selectMusicByKey() {
+        System.out.println("---------------------------");
+        musicMapper.selectMusicByKey("黑马").forEach(System.out::println);
     }
 }

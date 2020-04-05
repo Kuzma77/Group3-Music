@@ -7,116 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169518b7-965c-4cca-9022-885e59d940a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/entity/Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/mapper/CollectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/CollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/impl/CollectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/group3/service/impl/MusicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/group3/mapper/CollectMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/config/MapperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/config/WebApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/config/WebMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/controller/ViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/Music$MusicBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/mapper/MusicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/util/ResponseObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/util/Salt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/com/group3/util/SpilderMusic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/aspectjweaver-1.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/byte-buddy-1.10.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-lang3-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/cssparser-0.9.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/druid-1.1.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/fastjson-1.2.66.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/hibernate-core-5.4.13.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/htmlunit-2.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/htmlunit-core-js-2.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/httpclient-4.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/httpcore-4.4.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/httpmime-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-client-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-http-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-io-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jetty-util-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/jsoup-1.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/lombok-1.18.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/mybatis-3.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/mybatis-spring-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/neko-htmlunit-2.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/sac-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/serializer-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-aop-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-aspects-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-beans-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-context-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-core-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-expression-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-jcl-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-jdbc-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-orm-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-test-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-tx-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-web-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/spring-webmvc-5.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/websocket-api-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/websocket-client-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/websocket-common-9.4.1.v20170120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/xalan-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/xercesImpl-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Group_music_war_exploded/WEB-INF/lib/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/config/MapperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/config/WebApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/config/WebMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/controller/ViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/Music$MusicBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/mapper/MusicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/util/ResponseObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/util/Salt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/group3/util/SpilderMusic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/group3/mapper/MusicMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/group3/mapper/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group-music.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Group-music.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group3/mapper/MusicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group3/mapper/MusicMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/group3/mapper/MusicMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/group3/mapper/MusicMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,8 +44,8 @@
       <list>
         <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -185,7 +87,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-spider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringStudy/spring-spider" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -195,14 +97,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.group3.mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.group3.mapper" />
+      <recent name="com.group3.service.impl" />
+      <recent name="com.group3.service" />
+      <recent name="com.group3.entity" />
+      <recent name="com.group3.controller" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.group3.util" />
-      <recent name="com.group3.config" />
-      <recent name="com.group3.mapper" />
-      <recent name="com.group3.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\SpringStudy\Group-music" />
@@ -215,15 +118,22 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 5 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 7 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 5 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 7 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="Group-music" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
     <configuration name="SpilderMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -312,7 +222,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Group-music_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Group-music_6" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -320,7 +230,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55600" />
+        <option name="DEBUG_PORT" value="54678" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -398,17 +308,7 @@
         <serviceView>
           <option name="contentProportion" value="0.12978142" />
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -430,7 +330,8 @@
       <workItem from="1585976811455" duration="15261000" />
       <workItem from="1586008500721" duration="9492000" />
       <workItem from="1586055427505" duration="2393000" />
-      <workItem from="1586057854217" duration="3398000" />
+      <workItem from="1586057854217" duration="3643000" />
+      <workItem from="1586064903691" duration="1851000" />
     </task>
     <servers />
   </component>
@@ -442,14 +343,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="424" y="128" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1585915283567" />
-    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586058067881">
+    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586065614025">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586058067881" />
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1586013829979">
+    <state x="314" y="130" width="1034" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1586065614025" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1586066616999">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1586013829979" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1586066616999" />
     <state x="389" y="111" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585976896141">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -458,58 +359,58 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1585932633424" />
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1586057206271">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1586066452389">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586057206271" />
-    <state width="1273" height="189" key="GridCell.Tab.0.bottom" timestamp="1586060317891">
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586066452389" />
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1586066955134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
-    <state width="1273" height="189" key="GridCell.Tab.0.center" timestamp="1586060317891">
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586066955134" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1586066955134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
-    <state width="1273" height="189" key="GridCell.Tab.0.left" timestamp="1586060317891">
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586066955134" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1586066955133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
-    <state width="1273" height="189" key="GridCell.Tab.0.right" timestamp="1586060317891">
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586066955133" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1586066955134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586060317891" />
-    <state width="1273" height="189" key="GridCell.Tab.1.bottom" timestamp="1586058078210">
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586066955134" />
+    <state width="1493" height="316" key="GridCell.Tab.1.bottom" timestamp="1586066116378">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
-    <state width="1273" height="189" key="GridCell.Tab.1.center" timestamp="1586058078210">
+    <state width="1493" height="316" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586066116378" />
+    <state width="1493" height="316" key="GridCell.Tab.1.center" timestamp="1586066116378">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
-    <state width="1273" height="189" key="GridCell.Tab.1.left" timestamp="1586058078210">
+    <state width="1493" height="316" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1586066116378" />
+    <state width="1493" height="316" key="GridCell.Tab.1.left" timestamp="1586066116378">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
-    <state width="1273" height="189" key="GridCell.Tab.1.right" timestamp="1586058078210">
+    <state width="1493" height="316" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1586066116378" />
+    <state width="1493" height="316" key="GridCell.Tab.1.right" timestamp="1586066116378">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
-    <state width="1273" height="189" key="GridCell.Tab.2.bottom" timestamp="1586058078211">
+    <state width="1493" height="316" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1586066116378" />
+    <state width="1493" height="316" key="GridCell.Tab.2.bottom" timestamp="1586066116379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586058078211" />
-    <state width="1273" height="189" key="GridCell.Tab.2.center" timestamp="1586058078210">
+    <state width="1493" height="316" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586066116379" />
+    <state width="1493" height="316" key="GridCell.Tab.2.center" timestamp="1586066116379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
-    <state width="1273" height="189" key="GridCell.Tab.2.left" timestamp="1586058078210">
+    <state width="1493" height="316" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1586066116379" />
+    <state width="1493" height="316" key="GridCell.Tab.2.left" timestamp="1586066116379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
-    <state width="1273" height="189" key="GridCell.Tab.2.right" timestamp="1586058078210">
+    <state width="1493" height="316" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1586066116379" />
+    <state width="1493" height="316" key="GridCell.Tab.2.right" timestamp="1586066116379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1273" height="189" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1586058078210" />
+    <state width="1493" height="316" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1586066116379" />
     <state x="299" y="88" key="Maven.ArtifactSearchDialog" timestamp="1585904560291">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

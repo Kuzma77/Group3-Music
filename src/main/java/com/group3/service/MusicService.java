@@ -1,5 +1,4 @@
-package com.group3.mapper;
-
+package com.group3.service;
 
 import com.group3.entity.Music;
 import org.apache.ibatis.annotations.Insert;
@@ -9,12 +8,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * @author wl_sun
- * @description TODO
- * @create Date
- */
-public interface MusicMapper {
+public interface MusicService {
     /**
      * 批量插入歌曲
      *
@@ -41,6 +35,6 @@ public interface MusicMapper {
      * @param key
      * @return
      */
-    @Select("SELECT * FROM t_sys_music WHERE name LIKE #{%key%}")
+    @Select("SELECT * FROM t_sys_music WHERE name=#{key}")
     List<Music> selectMusicByKey(String key);
 }
