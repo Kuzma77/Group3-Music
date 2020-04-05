@@ -5,6 +5,7 @@ import com.group3.entity.Music;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -27,4 +28,19 @@ public interface MusicMapper {
             "</script>"})
     @Options(useGeneratedKeys = true, keyProperty = "id")
     void batchinsertMusic(@Param("musicList") List<Music> musicList);
+
+    /**
+     * 查询所有音乐
+     * @return
+     */
+    @Select("SELECT * FROM t_sys_music")
+    List<Music> selectAllMusic();
+
+    /**
+     * 根据歌名查询音乐
+     * @param key
+     * @return
+     */
+    @Select("SELECT * FROM t_sys_music WHERE name LIKE #{%key%}")
+    List<Music> selectMusicByKey(String key);
 }
