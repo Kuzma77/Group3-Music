@@ -21,4 +21,15 @@ private MusicMapper musicMapper;
     public void batchinsertMusic() {
         musicMapper.batchinsertMusic(SpilderMusic.getContent());
     }
+
+    @Test
+    public void selectAllMusic() {
+        musicMapper.selectAllMusic().forEach(System.out::println);
+    }
+
+    @Test
+    public void selectMusicByKey() {
+        System.out.println("---------------------------");
+        musicMapper.selectMusicByKey("黑马").forEach(System.out::println);
+    }
 }
